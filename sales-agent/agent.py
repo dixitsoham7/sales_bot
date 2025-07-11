@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from google.adk.agents import Agent
 from .user_context import user_context
 from .sales_prompt import SALES_BOT_PROMPT
-from .product_prompt import COMBINED_KNOWLEDGE
+from .product_knowledge import COMBINED_KNOWLEDGE
 
 report_json = user_context.get("report")
 load_dotenv()
